@@ -1,0 +1,82 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.form {
+  width: 50%;
+  margin-right: 40px;
+}
+.form img {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  right: 25px;
+}
+.facebook {
+  text-align: center;
+  margin-left: 20%;
+}
+.facebook img {
+  width: 50px;
+  height: 50px;
+}
+.info {
+  margin-top: 20px;
+  margin-left: 4%;
+  font-size: large;
+}
+.inputs {
+  margin-bottom: 10px;
+}
+.inputs input {
+  padding: 6px;
+  font-size: medium;
+}
+
+.submit {
+  padding: 5px 40px;
+  background: #1e57c7;
+  color: white;
+  border-radius: 7px;
+  position: relative;
+  margin-top: 10px;
+  outline: none;
+  left: 30px;
+  bottom: 6px;
+  cursor: pointer;
+}
+.end {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+  background: white;
+  opacity: 0.95;
+  position: absolute;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 470px;
+  height: 100vh;
+}
+.end h1 {
+  color: red;
+}
+.Adding {
+  margin-top: 100px;
+  font-weight: bold;
+}
+.Adding input {
+  padding: 10px;
+  font-size: medium;
+}
+.did {
+  color: rgb(54, 163, 48);
+  font-size: larger;
+}
+.end.none {
+  display: none;
+}
